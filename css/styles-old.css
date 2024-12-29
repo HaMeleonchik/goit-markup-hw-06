@@ -1,0 +1,23 @@
+
+
+/* footer */
+
+/* container footer */
+.conteiner-footer{
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 100px;
+padding-top: 100px;
+    }
+
+/* Subscribe-form-footer*/
+
+.Subscribe-box{
+   margin-left:auto;
+}
+
+.form-sub{
+    display: flex;
+    gap: 24px;
+}
+
