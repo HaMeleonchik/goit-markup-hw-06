@@ -775,10 +775,6 @@ overflow: hidden;
 
 }
 
-
-
-
-
                                  /* #endregion Our-Portfolio */
 
 
@@ -847,6 +843,7 @@ margin-bottom: 16px;
 .icon-social-link-footer:hover,
 .icon-social-link-footer:focus{
     background-color: #31d0aa;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-list-footer{
@@ -908,6 +905,7 @@ margin-top: 72px;
              .sub-btn:focus,
              .sub-btn:hover{
                 background-color: #31d0aa; 
+                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
              }
              .sub-btn-div{
                 display: flex;
@@ -1252,4 +1250,4 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-/*  #endregion overlay */
+/*  #endregion overlay+modal  */
